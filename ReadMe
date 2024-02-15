@@ -13,10 +13,10 @@ Running the File:
 
 Example Terminal Input:
     WINDOWS:
-    python "C:\Users\samue\PycharmProjects\CS4365 AI Projects\AI_8puzzle_solver.py" astar2 "C:\Users\samue\Downloads\8puzzle_infile.txt"
+    python "C:\Users\samue\PycharmProjects\CS4365 AI Projects\AI_8puzzle_solver.py" astar2 "C:\Users\samue\Downloads\input_file.txt"
 
     MAC:
-    /usr/local/bin/python3 "/Users/jamie/Downloads/AI_8puzzle_solver.py" dfs "/Users/jamie/Downloads/inputfile.txt"
+    /usr/local/bin/python3 "/Users/jamie/Downloads/AI_8puzzle_solver.py" dfs "/Users/jamie/Downloads/input_file.txt"
 
 
 Example Contents of Input File: 6 7 1 9 8 2 * 5 4 3
