@@ -1,0 +1,59 @@
+Running the File:
+    1. make sure you have the python file (.py) and the data (.txt) file saved to your machine
+    2. open the terminal
+    3. enter the following command:
+
+        python "Your Absolute File Path to AI_8puzzle_solver.py" "Algorithm Choice" "Your Absolute File Path to data file"
+
+            - Algorithm choices = dfs, ids, astar1, astar2
+            - NOTE: you may experience errors from the terminal if you don't include the "" around the file paths
+
+
+Example Terminal Input:
+    WINDOWS:
+    python "C:\Users\samue\PycharmProjects\CS4365 AI Projects\AI_8puzzle_solver.py" astar2 "C:\Users\samue\Downloads\8puzzle_infile.txt"
+
+    MAC:
+    /usr/local/bin/python3 "/Users/jamie/Downloads/AI_8puzzle_solver.py" dfs "/Users/jamie/Downloads/inputfile.txt"
+
+
+Example Contents of Input File: 6 7 1 9 8 2 * 5 4 3
+    - If you don't have the data file, simply copy/paste those numbers into a .txt file
+
+
+Example Output:
+
+    Initial Puzzle State:
+    6 7 1
+    8 2 *
+    5 4 3
+
+
+
+    Path:
+    6 7 1
+    8 2 *
+    5 4 3
+
+    6 7 1
+    8 * 2
+    5 4 3
+
+    6 7 1
+    * 8 2
+    5 4 3
+
+    * 7 1
+    6 8 2
+    5 4 3
+
+    7 * 1
+    6 8 2
+    5 4 3
+
+    7 8 1
+    6 * 2
+    5 4 3
+
+    Number of moves: 5
+    Number of states enqueued: 13
