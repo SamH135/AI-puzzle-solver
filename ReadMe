@@ -7,7 +7,9 @@ Running the File:
 
             - Algorithm choices = dfs, ids, astar1, astar2
             - NOTE: you may experience errors from the terminal if you don't include the "" around the file paths
-
+            - NOTE: the depth of the state-space tree is set to 10, you can increase this depth to see if the agent can 
+                    solve puzzles that are arranged in a more difficult format (requires more moves and searches to reach the goal state).
+                    - if you increase the depth too much, your machine may crash or experience errors, I suggest using Google Colab for this reason.
 
 Example Terminal Input:
     WINDOWS:
